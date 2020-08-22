@@ -175,15 +175,8 @@ namespace AethersightNET
         {
             if (process == null) return;
 
-            try
-            {
-                process.CloseMainWindow();
-                process.WaitForExit();
-            }
-            finally
-            {
-                process.Dispose();
-            }
+            process.Close();
+            process.Dispose();
         }
 
         public void Dispose()
