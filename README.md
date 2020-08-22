@@ -1,6 +1,9 @@
 # Aethersight.NET
 Windows-only .NET wrapper for the [Aethersight](https://github.com/karashiiro/Aethersight) CLI.
 
+## Installation
+`Install-Package Aethersight.NET -Version 1.0.0`
+
 ## Example
 ```csharp
 using var aethersight = new AethersightSniffer();
