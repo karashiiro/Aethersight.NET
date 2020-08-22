@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Aethersight": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}

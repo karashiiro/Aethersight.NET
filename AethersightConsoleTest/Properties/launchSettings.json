@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AethersightConsoleTest": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
